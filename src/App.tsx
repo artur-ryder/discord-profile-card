@@ -11,7 +11,7 @@ function App() {
             discriminator={1000}
             createdAt={Date.now()}
             bannerColor='9e9ffe'
-            aboutMe="Eu gosto de nagatoro, logo, sou maluco, ah e tenho 22 anos"
+            aboutMe="Some about me here"
             activity={{
                title: 'Nagatoro',
                description: 'Nagatoro',
