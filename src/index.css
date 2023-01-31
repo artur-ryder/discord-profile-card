@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'gg sans';
+    src: url('https://theme.zdassets.com/theme_assets/678183/d8688381117f9ef89f410ebf5a25bc74ae1d3403.woff2') format('woff2');
+}
+body {
+  margin: 0;
+  font-family: "gg sans","Noto Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  font-smooth: never;
+    
+  background-color: #222;
+  color: white;
+}

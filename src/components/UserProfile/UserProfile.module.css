@@ -1,0 +1,177 @@
+.container{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    background-color: #292b2f;
+}
+.banner{
+    width: 100%;
+    height: 80px;
+}
+.avatarContainer{
+    padding: 7px;
+    background-color: #292b2f;
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+    margin: -65px 60px 0px 20px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+}
+.status{
+    width: 20px;
+    height: 20px;
+    padding: 7px;
+
+    border-radius: 50%;
+
+    margin: -40px 60px 0px 90px;
+    overflow: hidden;
+    background-color: #292b2f;
+
+    position: relative;
+    z-index: 99999;
+}
+.online{
+    background-color: #3ba45c;
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+}
+.idle{
+    background-color: #faa61a;
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+}
+.dnd{
+    background-color: #e74043;
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+}
+.offline{
+    background-color: #747f8d;
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+}
+.badges{
+    position: relative;
+    top: -25px;
+    right: 16px;
+
+    padding: 4px;
+
+    height: 22px;
+    width: fit-content;
+    background-color: #16171a;
+    align-self: flex-end;
+    border-radius: 8px;
+    max-width: 190px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.badge img{
+    width: 22px;
+    height: 22px;
+}
+.userInfo{
+    border-radius: 10px;
+    margin: 0px 13px 13px 13px;
+
+    padding: 15px;
+
+    background-color: #18191c;
+}
+.userNameContainer{
+    padding: 0px;
+    padding-bottom: 15px;
+}
+.userName{
+    font-weight: 600;
+    font-size: 21px;
+}
+.userTag{
+    color: #b9bbbe;
+    font-weight: 600;
+    font-size: 21px;
+}
+.division{
+    width: 100%;
+
+    height: 1px;
+    background-color: #585858;
+}
+.section{
+    padding-top: 12px;
+}
+.section h2{
+    display: flex;
+    font-weight: 1000;
+    margin: 0px 0px 6px 0px;
+
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 16px;
+}
+.section div[class="text"]{
+    margin: 0;
+    font-weight: 100;
+
+    line-height: 16px;
+    font-size: 15px;
+    box-sizing: border-box;
+
+    line-break: anywhere;
+
+    color: #d1d1d1;
+}
+.svgIcon{
+    color: #bebebe;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.memberSinceDate{
+    font-size: 15px;
+}
+.note{
+    border-top: 0;
+    padding-top: 5px;
+}
+.note h2{
+    display: flex;
+    font-weight: 1000;
+    margin: 0px 0px 6px 0px;
+
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 16px;
+}
+.note p{
+    background-color: #18191c;
+    padding: 10px 5px;
+
+    margin: 0;
+
+    font-size: 13px;
+    color: #bdbdbd;
+
+    outline: none;
+}

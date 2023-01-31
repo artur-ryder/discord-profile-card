@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+.activityTitle{
+    font-weight: bold;
+    color: #e4e4e4;
+
+    font-size: 14px;
+}
+.largeImage{
+    width: 70px;
+    height: 70px;
+
+    margin-right: 5px;
+
+    border-radius: 10px;
+}
+.smallImage{
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+    border: solid 5px #18191c;
+
+    
+    margin-top: 50px;
+    margin-left: -20px;
+    
+}
+.description{
+    font-size: 14px;
+    color: #e4e4e4;
+}
