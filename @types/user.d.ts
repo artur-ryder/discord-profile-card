@@ -1,7 +1,7 @@
 export interface User {
     username: string,
     status: 'online' | 'idle' | 'dnd' | 'offline'
-    discriminator: string | number,
+    discriminator: string ,
     avatar_img: string,
     bannerColor: string
     aboutMe?: string,

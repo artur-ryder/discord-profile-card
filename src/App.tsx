@@ -5,20 +5,21 @@ function App() {
   return (
     <div className="App">
         <UserProfile
-            avatar_img='https://cdn.discordapp.com/avatars/769618105990643803/a_1e0f47e31cbbf39caec3d0a1bcfafec4.gif?size=80'
-            username='Vordlex'
-            status='online'
-            discriminator={1000}
+            avatar_img='/ryder.webp'
+            username='Ryder'
+            discriminator={"0001"}
+            status='idle'
             createdAt={Date.now()}
             bannerColor='9e9ffe'
-            aboutMe="Some about me here"
+            aboutMe="Hello, I'm ryder!"
             activity={{
-               title: 'Nagatoro',
-               description: 'Nagatoro',
-               state: 'Nagatoro',
-               largeImageKey: 'https://cdn.discordapp.com/attachments/918527756692762674/1070102395687796766/image.png',
-               smallImageKey: 'https://cdn.discordapp.com/attachments/918527756692762674/1070102431511359649/image.png'
+               title: 'GTA V',
+               description: 'A very good game.',
+               state: 'Playing',
+               largeImageKey: '/gta-v.webp',
+               smallImageKey: ''
             }}
+            badges={[{name: "Test", imgLink: "https://cdn.discordapp.com/badge-icons/6bdc42827a38498929a4920da12695d9.png"}]}
         />
     </div>
   );
