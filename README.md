@@ -21,3 +21,7 @@ Is a react component that contains the replica of discord's profile style.
 Just copy the `Activity ` and `UserProfile` to your `components` folder.
 
 ****this project uses css-modules, typescript and react.js.****
+
+## Images
+
+<img src="https://i.imgur.com/Bh2CjRD.png" alt="image"/>
